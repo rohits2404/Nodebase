@@ -6,11 +6,8 @@ const RegisterPage = async () => {
 
     await requireUnAuth();
 
-
     return (
-        <div>
-            <RegisterForm/>
-        </div>
+        <RegisterForm/>
     )
 }
 
